@@ -36,6 +36,7 @@ function getRandomCard()
 
 function startGame() {
     isAlive = true
+    hasBlackJack = false
     let firstNumber = getRandomCard()
     let secondNumber = getRandomCard()
     cards = [firstNumber, secondNumber]
